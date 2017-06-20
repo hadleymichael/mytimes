@@ -1,3 +1,116 @@
-header {
+.header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  width: 100%;
+  height: 80px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+  margin-bottom: 40px;
+  background-color: white;
+}
 
+.logo {
+  color: MediumAquamarine;
+  align-items: center;
+  display: flex;
+  padding-right: 10px;
+  flex-grow: 1;
+}
+
+.logo span {
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  margin-right: 50px;
+  align-items: center;
+}
+
+.nav span {
+  text-decoration: underline;
+  padding-right: 15px;
+}
+
+.nav span a {
+  color: black;
+}
+
+/*End header, begin content*/
+
+.column {
+  display: flex;
+  padding-top: 80px;
+  width: 100%;
+  flex-direction: row;
+
+}
+.container .large {
+  width: 630px;
+  display: flex;
+  margin-right: 25px;
+  flex-shrink: 2;
+
+}
+
+.container .medium {
+  width: 300px;
+  display: flex;
+  padding-right:10px;
+  flex-shrink: 3;
+  margin-right: 25px;
+
+}
+
+.container .small {
+  width: 240px;
+  display: flex;
+  flex-shrink: 3;
+
+}
+
+.tuna {
+  border: 1px solid red;
+}
+.tunaimage {
+  background-image:url("../images/img-story-main.png");
+  color: white;
+}
+
+.orca {
+  border: 1px solid blue;
+}
+
+.backwards {
+  border: 1px solid green;
+  background-image: url("../images/img-story-2.png");
+  color: white;
+}
+
+.burger {
+  border: 1px solid orange;
+}
+
+.cameras {
+  border: 1px solid purple;
+  background-image: url("../images/img-story-3.png");
+}
+
+.medium {
+  border: 1px solid yellow;
+}
+
+.cats {
+  border: 1px solid grey;
+}
+.catsimg {
+  background-image: url("../images/img-story-1.png");
+  color: white;
+}
+.bites {
+border: 1px solid black;
 }
